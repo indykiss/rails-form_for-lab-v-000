@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(version: 2) do
 
   create_table "school_classes", force: :cascade do |t|
-    t.integer   "room_number"
+    t.string   "room_number"
     t.string   "title"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
