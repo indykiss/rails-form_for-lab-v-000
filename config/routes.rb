@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :school_classes, only: []
+  resources :school_classes, only: [:index, :show, :new, :create, :edit, :update]
   resourecs :students, only: []
 
   # The priority is based upon order of creation: first created -> highest priority.
