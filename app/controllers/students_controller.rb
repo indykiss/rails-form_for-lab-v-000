@@ -12,6 +12,10 @@ class StudentsController < ApplicationController
     @student = Student.find(params[:id])
   end
 
+  def edit 
+    @student = Student.find(params[:id])
+  end 
+
   def create
     @student = Student.new
     @student.first_name = params[:first_name]
