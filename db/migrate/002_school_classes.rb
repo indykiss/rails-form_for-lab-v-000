@@ -1,4 +1,4 @@
-class CreateStudents < ActiveRecord::Migration
+class CreateSchoolClasses < ActiveRecord::Migration
   def change
     create_table :school_classes do |t|
       t.string :room_number
