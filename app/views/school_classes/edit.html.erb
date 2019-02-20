@@ -2,10 +2,10 @@
 
 
 <%= form_for(@school_class) do |school_class|%>
-  <%= school_class.label :first_name %>
-    <%= school_class.text_field :first_name%>
-  <%= school_class.label :last_name %>
-    <%= school_class.text_field :room_number %>
+  <%= school_class.label :room_number %>
+    <%= school_class.text_field :room_number%>
+  <%= school_class.label :title %>
+    <%= school_class.text_field :title %>
 
 <%= school_class.submit "Update Student" %>
 
